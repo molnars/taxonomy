@@ -1,4 +1,5 @@
 created_by: anilsonmez
+domain: 5g_sctp
 seed_examples:
 - answer: open5g requires sctp protocol to operate
     please check sctp protocol enabled properly on OpenShift 
@@ -16,3 +17,8 @@ seed_examples:
     please check sctp protocol enabled properly on Red Hat OpenShift Platform for Open5G
   question: What could be the solution for FATAL ogs_sctp_socket Assertion new failed /lib/sctp/ogs-lksctp.c:57 Open5G deployed on Red Hat OpenShift Platform?
 task_description: 'Details of sctp protocol requirements on Red Hat OpenShift Platform for 5G, cNF Open5GS'
+document:
+  repo: https://github.com/molnars/taxonomy.git
+  commit: 56156f903eab63568b9130144a01fdeee2572d24
+  patterns:
+    - <file-search-patter 1>
